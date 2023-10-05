@@ -11,6 +11,7 @@ $(document).ready(function () {
             $('.header__list li').removeClass();
             $(this).parent().addClass('active');
             $('.header__burger, header .nav, .header__menu, .header__logo-b, .header__logo-w').removeClass('active');
+            $('body').removeClass('lock');
         });
     });
 
