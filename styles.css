@@ -95,12 +95,11 @@ h6 {
     text-decoration: none;
     color: #ffffff;
 }
-
 .header__link:hover {
     border-bottom: solid 1px #ffffff;
     color: #ffffff;
 }
-
+.header__link img{display: none}
 .header__burger {
     display: none;
 }
@@ -416,11 +415,13 @@ footer p {
 
     .header__link {
         font-size: 18px !important;
-        color: #83898F
+        color: #83898F;
+        display: flex;
+        justify-content: space-between;
     }
-
+    .header__link img {display: block}
     .header__list li.active .header__link:hover {
-        color: #ffffff;
+        color: #83898F;
     }
 
     .header .nav {
@@ -462,6 +463,9 @@ footer p {
 
     .slider .slick-arrow.slick-next {
         display: none !important
+    }
+    .slider .slick-prev.slick-arrow{
+        display: none !important;
     }
 
     .container {
