@@ -527,7 +527,6 @@ footer p {
         text-align: center
     }
     .reviews__item {
-        width: 260px;
         height: auto;
         margin: 10px;
     }
@@ -553,9 +552,7 @@ footer p {
     .banner__back {
         height: 596px;
     }
-    .reviews__item {
-        width: 340px;
-    }
+
 }
 
 @media (max-width: 375px) {
@@ -567,7 +564,5 @@ footer p {
         height: 509px;
     }
 
-    .reviews__item {
-        width: 288px;
-    }
+
 }
