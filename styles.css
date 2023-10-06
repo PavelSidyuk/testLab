@@ -11,6 +11,11 @@ body {
 body.lock {
     overflow: hidden;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 h1 {
 
     font-size: 52px;
@@ -216,6 +221,7 @@ h6 {
 
 .slider {
     position: relative;
+    min-width: 0;
 }
 
 .slick-slider {
@@ -298,6 +304,8 @@ h6 {
     border-radius: 8px;
     margin: 25px;
     box-shadow: 0 5px 24px 0 #0000001A;
+    
+
 }
 
 .reviews__item_head {
@@ -518,7 +526,11 @@ footer p {
         order: 0;
         text-align: center
     }
-
+    .reviews__item {
+        width: 260px;
+        height: auto;
+        margin: 10px;
+    }
 }
 
 @media (max-width: 375px) {
