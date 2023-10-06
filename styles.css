@@ -149,8 +149,9 @@ h6 {
     padding: 20px 40px 20px 40px;
     border-radius: 4px;
     background-color: #ECEFF2;
-    border-color: #ECEFF2;
     margin-top: 92px;
+    color: black;
+    border: none;
 }
 
 .description {
